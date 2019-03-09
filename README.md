@@ -10,9 +10,11 @@ server, including applying ROS (Robot Operating System) as ‘glue code’ betwe
 squads’ code. This task will demonstrate the some of the fundamental ideas that are behind our
 system to you as well as your ability to work independently to us.
 Task: Given an arduino and any sensor/ actuator of your choice, either:
+
 ● Program the arduino to report sensor values. Then capture those sensor values over
 serial connection (USB) and display them in a GUI on the base station using flask (a
 python web-framework).
+
 ● Program the arduino to wait for incoming signal from a serial connection (USB). Then
 program a GUI using flask to control one or more aspects of the actuator (e.g. controlling
 the rate at which LED blinks).
@@ -29,12 +31,16 @@ Go look online for the documentation, video tutorials, whatever resources you fi
 helpful to completing this task.
 Time: One week.
 Steps that may help:
+
 1. Research concepts: Git, Arduino, Python, Flask, HTML/JS/CSS, Arduino Serial library,
 Python pyserial library
+
 2. Try to get it to work first without an actual sensor, to focus on getting the serial
 communication going properly
+
 3. Ask questions!
 Extra things:
+
 1. If you are done and still have time (and the will), start looking into ROS and see if you
 can ‘rosify’ your code in any way.
 Contact information if you got questions:
